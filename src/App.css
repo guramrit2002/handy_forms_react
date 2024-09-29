@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.form-preview{
+    width: 80%;
+}
+.fields-section{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.all-types{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.all-types div{
+    padding: 1rem 0.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+.type-single:hover{
+    background-color: white;
+    color: black;
+}
